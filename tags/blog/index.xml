@@ -23,11 +23,11 @@
 記事はMarkdown で書けるので, 普段 Latex とか使うタイプの人ならば親和性が高いと思います.&lt;/p&gt;
 &lt;h2 id=&#34;サイトを作るまでにやったこと&#34;&gt;サイトを作るまでにやったこと&lt;/h2&gt;
 &lt;ol start=&#34;0&#34;&gt;
-&lt;li&gt;Git, Hugo のインストール&lt;/li&gt;
-&lt;li&gt;GitHub に2つのリポジトリ(コード管理用、公開用)を作成・クローン&lt;/li&gt;
-&lt;li&gt;サイトの作成・テーマの適用&lt;/li&gt;
-&lt;li&gt;自分なりにサイトをカスタマイズ&lt;/li&gt;
-&lt;li&gt;deploy.sh の作成&amp;amp;実行&lt;/li&gt;
+&lt;li&gt;[Git, Hugo のインストール](# 0. Git, Hugo のインストール)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;GitHub に2つのリポジトリ(コード管理用、公開用)を作成・クローン&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;サイトの作成・テーマの適用&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;自分なりにサイトをカスタマイズ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;deploy.sh の作成&amp;amp;実行&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;以下, 順に解説していきます.&lt;/p&gt;
 &lt;h2 id=&#34;0-git-hugo-のインストール&#34;&gt;0. Git, Hugo のインストール&lt;/h2&gt;
