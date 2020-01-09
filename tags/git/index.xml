@@ -21,23 +21,25 @@
 この記事では, どのようにしてこのサイトを作ったかを解説します.
 言わずもかな GitHub と Hugo という静的サイトジェネレータを用いて約20分で出来上がります.
 記事はMarkdown で書けるので, 普段 Latex とか使うタイプの人ならば親和性が高いと思います.&lt;/p&gt;
-&lt;h2 id=&#34;サイトを作るまでにやったこと&#34;&gt;サイトを作るまでにやったこと&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;サイトを作るまでにやったこともくじ&#34;&gt;サイトを作るまでにやったこと(もくじ)&lt;/h1&gt;
 &lt;ol start=&#34;0&#34;&gt;
-&lt;li&gt;[Git, Hugo のインストール](# 0. Git, Hugo のインストール)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;GitHub に2つのリポジトリ(コード管理用、公開用)を作成・クローン&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;サイトの作成・テーマの適用&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;自分なりにサイトをカスタマイズ&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;deploy.sh の作成&amp;amp;実行&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#0-Git,Hugo%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB&#34;&gt;Git, Hugo のインストール&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#1-GitHub%E3%81%AB2%E3%81%A4%E3%81%AE%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%82%92%E4%BD%9C%E6%88%90%E3%83%BB%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%B3&#34;&gt;GitHub に2つのリポジトリ(コード管理用、公開用)を作成・クローン&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#2-%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E3%83%BB%E3%83%86%E3%83%BC%E3%83%9E%E3%81%AE%E9%81%A9%E7%94%A8&#34;&gt;サイトの作成・テーマの適用&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#3-%E8%87%AA%E5%88%86%E3%81%AA%E3%82%8A%E3%81%AB%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA&#34;&gt;自分なりにサイトをカスタマイズ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#4-deploy.sh%E3%81%AE%E4%BD%9C%E6%88%90&amp;amp;%E5%AE%9F%E8%A1%8C&#34;&gt;deploy.sh の作成&amp;amp;実行&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
+&lt;hr&gt;
 &lt;p&gt;以下, 順に解説していきます.&lt;/p&gt;
-&lt;h2 id=&#34;0-git-hugo-のインストール&#34;&gt;0. Git, Hugo のインストール&lt;/h2&gt;
+&lt;h2 id=&#34;0-githugoのインストール&#34;&gt;0-Git,Hugoのインストール&lt;/h2&gt;
 &lt;p&gt;Git は言わずともしれたコード管理ツールの一つです(知らない人は&lt;a href=&#34;https://backlog.com/ja/git-tutorial/&#34;&gt;コチラ&lt;/a&gt;).
 アカウントないよって人は&lt;a href=&#34;https://github.com&#34;&gt;ココ&lt;/a&gt;で登録しましょう.
 Git については&lt;a href=&#34;https://git-scm.com/book/ja/v2/%E4%BD%BF%E3%81%84%E5%A7%8B%E3%82%81%E3%82%8B-Git%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB&#34;&gt;コチラ&lt;/a&gt;を参照して, 入れてみてください.&lt;/p&gt;
 &lt;p&gt;Hugo はGO言語(自分もよく知らない)で書かれた静的サイトジェネレータです.
 Markdown で記事がかけたり, 特に知識がなくてもテーマが豊富なので, すぐにいい感じのサイトが作れます.
 Hugo についても同様にコチラ(&lt;a href=&#34;https://plus-n.work/2019/01/406/&#34;&gt;Linux&lt;/a&gt;, &lt;a href=&#34;https://nyagosu.net/develop/web/hugo-mac/&#34;&gt;Mac&lt;/a&gt;, &lt;a href=&#34;https://benkyosukisuki.com/create/create-lifehack-hugo-on-windows/&#34;&gt;Windows&lt;/a&gt;)を参照して, 入れてみてください.&lt;/p&gt;
-&lt;h2 id=&#34;1-github-に2つのリポジトリを作成クローン&#34;&gt;1. GitHub に2つのリポジトリを作成・クローン&lt;/h2&gt;
+&lt;h2 id=&#34;1-githubに2つのリポジトリを作成クローン&#34;&gt;1-GitHubに2つのリポジトリを作成・クローン&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://chanmitsu55.github.io/2017/12/25/2017-12-25-create-blog-by-hugo/&#34;&gt;この記事&lt;/a&gt;に倣って, コードの管理用のリポジトリと, デプロイ(公開)用のレポジトリを作ります.
 自分のGitHub にアクセスして, 管理用の &lt;code&gt;blog_src&lt;/code&gt;(名前は任意)と, デプロイ用の &lt;code&gt;&amp;lt;ユーザ名&amp;gt;.github.io&lt;/code&gt;(指定)というレポジトリを作成してください.
 あとでクローンするのでREADMEの作成オプションは有効化しといてね.
@@ -45,7 +47,7 @@ Hugo についても同様にコチラ(&lt;a href=&#34;https://plus-n.work/2019/
 &lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;$git clone https://github.com/&amp;lt;ユーザ名&amp;gt;/blog_src.git
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;基本的にはこっちをカスタマイズしていきます, もう片方は自分でいじることはほとんどありません.&lt;/p&gt;
-&lt;h2 id=&#34;2-サイトの作成テーマの適用&#34;&gt;2. サイトの作成・テーマの適用&lt;/h2&gt;
+&lt;h2 id=&#34;2-サイトの作成テーマの適用&#34;&gt;2-サイトの作成・テーマの適用&lt;/h2&gt;
 &lt;p&gt;いよいよサイトを作ります, といっても難しいことは何一つとしてしません.
 blog_src フォルダのある階層で&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;$hugo new site blog_src --force
@@ -75,7 +77,7 @@ Web Server is available at http://localhost:39181/ (bind address 127.0.0.1)
 &lt;img src=&#34;initial_web.png&#34; alt=&#34;初期状態&#34;&gt;&lt;/p&gt;
 &lt;p&gt;こんな感じになったらとりあえず成功です.
 &lt;code&gt;Ctrl+C&lt;/code&gt; でサーバーを閉じてあげましょう.&lt;/p&gt;
-&lt;h2 id=&#34;3-自分なりにサイトをカスタマイズ&#34;&gt;3. 自分なりにサイトをカスタマイズ&lt;/h2&gt;
+&lt;h2 id=&#34;3-自分なりにサイトをカスタマイズ&#34;&gt;3-自分なりにサイトをカスタマイズ&lt;/h2&gt;
 &lt;p&gt;ここまできたらあとはあなたの好きにしましょう.
 基本的には&lt;code&gt;config.toml&lt;/code&gt; ファイルをいじってサイトの構成を変えていきます.
 今回はブログを作るのに最低限必要だと思うものを以下においておきます.&lt;/p&gt;
@@ -163,7 +165,7 @@ tags: [&#39;タグ1&#39;, &#39;タグ2&#39;, &#39;タグ3&#39;]
 こんにちは、ようこそブログへ！
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;調べたらいろいろ出てきますのでお試しあれ.&lt;/p&gt;
-&lt;h2 id=&#34;4-deploysh-の作成実行&#34;&gt;4. deploy.sh の作成&amp;amp;実行&lt;/h2&gt;
+&lt;h2 id=&#34;4-deployshの作成実行&#34;&gt;4-deploy.shの作成&amp;amp;実行&lt;/h2&gt;
 &lt;p&gt;ここからは作ったサイトをネット上に公開していきます.
 まずは下準備から, &lt;code&gt;blog_src&lt;/code&gt; の中で以下を実行します.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;# publicディレクトリを削除。
