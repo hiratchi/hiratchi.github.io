@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo &#43; GitHub でブログを公開するまで | インドに行きたいブログ。</title>
+    <link>https://hiratchi.github.io/post/howtomakeblog/</link>
+      <atom:link href="https://hiratchi.github.io/post/howtomakeblog/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hugo &#43; GitHub でブログを公開するまで</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>(c) 2020 Tomoya HIRAKAWA</copyright><lastBuildDate>Thu, 09 Jan 2020 14:32:48 +0900</lastBuildDate>
+    <image>
+      <url>https://hiratchi.github.io/post/howtomakeblog/featured.jpg</url>
+      <title>Hugo &#43; GitHub でブログを公開するまで</title>
+      <link>https://hiratchi.github.io/post/howtomakeblog/</link>
+    </image>
+    
+  </channel>
+</rss>
