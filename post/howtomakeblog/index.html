@@ -211,8 +211,6 @@
 
 
   
-  <link rel="alternate" href="/post/howtomakeblog/index.xml" type="application/rss+xml" title="インドに行きたいブログ。">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
@@ -226,22 +224,73 @@
   
   
     
+    
   
   
-  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="インドに行きたいブログ。">
   <meta property="og:url" content="https://hiratchi.github.io/post/howtomakeblog/">
   <meta property="og:title" content="Hugo &#43; GitHub でブログを公開するまで | インドに行きたいブログ。">
-  <meta property="og:description" content="この記事では, どのようにしてこのサイトを作ったかを解説します. 言わずもかな GitHub と Hugo という静的サイトジェネレータを用いて約20分で出来上がります. 記事はMarkdown で書けるので, 普段 Latex とか使うタイプの人ならば親和性が高いと思います."><meta property="og:image" content="https://hiratchi.github.io/post/howtomakeblog/featured.jpg">
-  <meta property="twitter:image" content="https://hiratchi.github.io/post/howtomakeblog/featured.jpg"><meta property="og:locale" content="ja">
+  <meta property="og:description" content="この記事では, どのようにしてこのサイトを作ったかを解説します. 言わずもかな GitHub と Hugo という静的サイトジェネレータを用いて約20分で出来上がります. 記事はMarkdown で書けるので, 普段 Latex とか使うタイプの人ならば親和性が高いと思います."><meta property="og:image" content="https://hiratchi.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="https://hiratchi.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="ja">
   
-    <meta property="og:updated_time" content="2020-01-09T14:32:48&#43;09:00">
+    
+      <meta property="article:published_time" content="2020-01-09T14:32:48&#43;09:00">
+    
+    <meta property="article:modified_time" content="2020-01-09T14:32:48&#43;09:00">
   
 
   
 
 
+    
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://hiratchi.github.io/post/howtomakeblog/"
+  },
+  "headline": "Hugo + GitHub でブログを公開するまで",
+  
+  "datePublished": "2020-01-09T14:32:48+09:00",
+  "dateModified": "2020-01-09T14:32:48+09:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Hiratchi"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "インドに行きたいブログ。",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "img/https://hiratchi.github.io/"
+    }
+  },
+  "description": "この記事では, どのようにしてこのサイトを作ったかを解説します. 言わずもかな GitHub と Hugo という静的サイトジェネレータを用いて約20分で出来上がります. 記事はMarkdown で書けるので, 普段 Latex とか使うタイプの人ならば親和性が高いと思います."
+}
+</script>
+
+  
+
+  
 
 
   
@@ -436,15 +485,9 @@
 </nav>
 
 
+  <article class="article">
+
   
-
-
-
-
-
-
-
-
 
 
 
@@ -458,17 +501,17 @@
 
 
   
-  
-    
-  
 
-
+  
+  
+  
 <div class="article-container pt-3">
   <h1>Hugo &#43; GitHub でブログを公開するまで</h1>
 
   
 
   
+    
 
 
 <div class="article-metadata">
@@ -503,42 +546,35 @@
   
   <span class="middot-divider"></span>
   <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="">tech</a></span>
+    <i class="fas fa-folder mr-1"></i><a href="/categories/tech/">tech</a></span>
   
 
 </div>
 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 480px;">
-  <div style="position: relative">
-    <img src="/post/howtomakeblog/featured_hu18da96cbdd92f37cd1edd55e41e55316_129199_720x0_resize_q90_lanczos.jpg" alt="" class="featured-image">
     
-  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 </div>
 
 
 
-<div class="universal-wrapper">
+  <div class="article-container">
 
-  
-  <div class="article-style"><p>こんにちは, hiratchi です.
+    <div class="article-style">
+      <p>こんにちは, hiratchi です.
 この記事では, どのようにしてこのサイトを作ったかを解説します.
 言わずもかな GitHub と Hugo という静的サイトジェネレータを用いて約20分で出来上がります.
 記事はMarkdown で書けるので, 普段 Latex とか使うタイプの人ならば親和性が高いと思います.</p>
@@ -740,16 +776,216 @@ git push
 <p><a href="https://plus-n.work/2019/01/406/">HUGOをインストールしてみた</a></p>
 <p><a href="https://k-kaz-git.github.io/post/hugo-custom-theme-cupper/">テーマ Cupper のカスタマイズ</a></p>
 <!-- reference -->
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/git/">git</a>
+  
+  <a class="badge badge-light" href="/tags/hugo/">hugo</a>
+  
+  <a class="badge badge-light" href="/tags/blog/">blog</a>
+  
 </div>
-  
-
-  
-  
-
-  
 
 
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://hiratchi.github.io/post/howtomakeblog/&amp;text=Hugo%20&#43;%20GitHub%20%e3%81%a7%e3%83%96%e3%83%ad%e3%82%b0%e3%82%92%e5%85%ac%e9%96%8b%e3%81%99%e3%82%8b%e3%81%be%e3%81%a7" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://hiratchi.github.io/post/howtomakeblog/&amp;t=Hugo%20&#43;%20GitHub%20%e3%81%a7%e3%83%96%e3%83%ad%e3%82%b0%e3%82%92%e5%85%ac%e9%96%8b%e3%81%99%e3%82%8b%e3%81%be%e3%81%a7" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Hugo%20&#43;%20GitHub%20%e3%81%a7%e3%83%96%e3%83%ad%e3%82%b0%e3%82%92%e5%85%ac%e9%96%8b%e3%81%99%e3%82%8b%e3%81%be%e3%81%a7&amp;body=https://hiratchi.github.io/post/howtomakeblog/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://hiratchi.github.io/post/howtomakeblog/&amp;title=Hugo%20&#43;%20GitHub%20%e3%81%a7%e3%83%96%e3%83%ad%e3%82%b0%e3%82%92%e5%85%ac%e9%96%8b%e3%81%99%e3%82%8b%e3%81%be%e3%81%a7" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Hugo%20&#43;%20GitHub%20%e3%81%a7%e3%83%96%e3%83%ad%e3%82%b0%e3%82%92%e5%85%ac%e9%96%8b%e3%81%99%e3%82%8b%e3%81%be%e3%81%a7%20https://hiratchi.github.io/post/howtomakeblog/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://hiratchi.github.io/post/howtomakeblog/&amp;title=Hugo%20&#43;%20GitHub%20%e3%81%a7%e3%83%96%e3%83%ad%e3%82%b0%e3%82%92%e5%85%ac%e9%96%8b%e3%81%99%e3%82%8b%e3%81%be%e3%81%a7" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="portrait mr-3" src="/authors/admin/avatar_hu1c392f15c6b546c26143ce02462d549c_26117_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://hiratchi.github.io/">Hiratchi</a></h5>
+      <h6 class="card-subtitle">卒業間近の高専生</h6>
+      <p class="card-text">卒業間近の高専生。</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:s53228th@outlook.jp" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/tomoya19971216" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/hiratchi" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  </div>
+</article>
 
       
 
