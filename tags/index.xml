@@ -36,5 +36,21 @@
       <description></description>
     </item>
     
+    <item>
+      <title>book</title>
+      <link>https://hiratchi.github.io/tags/book/</link>
+      <pubDate>Fri, 22 Nov 2019 14:57:19 +0900</pubDate>
+      <guid>https://hiratchi.github.io/tags/book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>memo</title>
+      <link>https://hiratchi.github.io/tags/memo/</link>
+      <pubDate>Fri, 22 Nov 2019 14:57:19 +0900</pubDate>
+      <guid>https://hiratchi.github.io/tags/memo/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
