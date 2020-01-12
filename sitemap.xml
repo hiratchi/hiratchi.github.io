@@ -48,12 +48,12 @@
   </url>
   
   <url>
-    <loc>https://hiratchi.github.io/categories/book/</loc>
+    <loc>https://hiratchi.github.io/tags/book/</loc>
     <lastmod>2019-11-22T14:57:19+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hiratchi.github.io/tags/book/</loc>
+    <loc>https://hiratchi.github.io/categories/book/</loc>
     <lastmod>2019-11-22T14:57:19+09:00</lastmod>
   </url>
   
@@ -88,6 +88,10 @@
   
   <url>
     <loc>https://hiratchi.github.io/authors/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hiratchi.github.io/gallery/</loc>
   </url>
   
   <url>
