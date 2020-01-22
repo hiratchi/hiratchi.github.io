@@ -3,12 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hiratchi.github.io/tags/blog/</loc>
-    <lastmod>2020-01-09T14:32:48+09:00</lastmod>
+    <loc>https://hiratchi.github.io/categories/</loc>
+    <lastmod>2020-01-22T17:14:59+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hiratchi.github.io/categories/</loc>
+    <loc>https://hiratchi.github.io/tags/latex/</loc>
+    <lastmod>2020-01-22T17:14:59+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiratchi.github.io/post/</loc>
+    <lastmod>2020-01-22T17:14:59+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiratchi.github.io/tags/</loc>
+    <lastmod>2020-01-22T17:14:59+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiratchi.github.io/categories/tech/</loc>
+    <lastmod>2020-01-22T17:14:59+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiratchi.github.io/</loc>
+    <lastmod>2020-01-22T17:14:59+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiratchi.github.io/tags/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/</loc>
+    <lastmod>2020-01-22T17:14:59+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiratchi.github.io/post/latex_preparation/</loc>
+    <lastmod>2020-01-22T17:14:59+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiratchi.github.io/tags/blog/</loc>
     <lastmod>2020-01-09T14:32:48+09:00</lastmod>
   </url>
   
@@ -24,26 +59,6 @@
   
   <url>
     <loc>https://hiratchi.github.io/post/howtomakeblog/</loc>
-    <lastmod>2020-01-09T14:32:48+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiratchi.github.io/post/</loc>
-    <lastmod>2020-01-09T14:32:48+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiratchi.github.io/tags/</loc>
-    <lastmod>2020-01-09T14:32:48+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiratchi.github.io/categories/tech/</loc>
-    <lastmod>2020-01-09T14:32:48+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiratchi.github.io/</loc>
     <lastmod>2020-01-09T14:32:48+09:00</lastmod>
   </url>
   

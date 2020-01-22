@@ -5,12 +5,28 @@
     <link>https://hiratchi.github.io/tags/</link>
       <atom:link href="https://hiratchi.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>(c) 2020 Tomoya HIRAKAWA</copyright><lastBuildDate>Thu, 09 Jan 2020 14:32:48 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>(c) 2020 Tomoya HIRAKAWA</copyright><lastBuildDate>Wed, 22 Jan 2020 17:14:59 +0900</lastBuildDate>
     <image>
       <url>https://hiratchi.github.io/img/icon.png</url>
       <title>Tags</title>
       <link>https://hiratchi.github.io/tags/</link>
     </image>
+    
+    <item>
+      <title>latex</title>
+      <link>https://hiratchi.github.io/tags/latex/</link>
+      <pubDate>Wed, 22 Jan 2020 17:14:59 +0900</pubDate>
+      <guid>https://hiratchi.github.io/tags/latex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>環境構築</title>
+      <link>https://hiratchi.github.io/tags/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/</link>
+      <pubDate>Wed, 22 Jan 2020 17:14:59 +0900</pubDate>
+      <guid>https://hiratchi.github.io/tags/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>blog</title>
