@@ -25,12 +25,12 @@
 &lt;h2 id=&#34;導入&#34;&gt;導入&lt;/h2&gt;
 &lt;p&gt;なんと言っても&lt;code&gt;texlive&lt;/code&gt;ですよね.
 ってことでとりあえずインストールします.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;sudo apt install texlive-full
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;$sudo apt install texlive-full
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;ネットの環境によってはかなり時間がかかるし通信量もごっそり持ってかれます(5GB程度).
 僕は学校のネット使って&lt;code&gt;texlive-full&lt;/code&gt;をインストールしました, ごめんなさい.
 日本語関連ものだけでいい！って人は上記の代わりに以下で良いです.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo apt install texlive-lang-japanese
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;$sudo apt install texlive-lang-japanese
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;さて, 上記のいずれかをインストールできたらもう終わったようなもんです.
 僕はいつもTeX文書を書くときにはTeXstudio を使っています.
